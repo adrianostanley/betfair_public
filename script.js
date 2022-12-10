@@ -245,7 +245,7 @@ class LayDrawBackLessThan25Goals {
 // temporary... used to run tests...
 
 jQuery(document).ready(function() {
-  let startButton = jQuery('<button />').text('test');
+  let startButton = jQuery('<button />').text('check strategy');
   startButton.click(function () {LayDrawBackLessThan25Goals.run()});
 
   jQuery('body').prepend(startButton);
